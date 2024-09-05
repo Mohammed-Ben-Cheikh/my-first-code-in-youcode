@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1725409937 source:c:\users\medbc\desktop\mini project\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1725524561 source:c:\users\ycode\onedrive\bureau\mini project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
