@@ -156,25 +156,28 @@ break;
                        for ( int Y=0; Y<c;Y++){
                 if(strcmp(supp,titre[Y])==0){
                         c--;
-                        for ( j=0; j<c;j++){
+                        for ( j=Y; j<c;j++){
                                 strcpy(titre[j], titre[j+1]);
                                 strcpy(auteur[j], auteur[j+1]);
                                 prix[j]= prix[j+1];
                                 quantite[j]= quantite[j+1];
+                                }
                                 deleted =1;
-                                }
+                            break;
+                            }}
+                                if(!deleted){
+                                    printf("No livre avec ce titre \n\n");
 
-                                }
+                                } else{
                                 printf(" ====>>> Le livre est suprimer correctement \n");
-                                }
-
-                    }
-                    else{
+                                }}  else{
                     printf("======>>> No livre en stock \n");
                 }
+break;
+                    }
 
-                break;
-}
+
+
  case 6: {
 for(int i=0;i<c;i++){
     s=s+quantite[i];
