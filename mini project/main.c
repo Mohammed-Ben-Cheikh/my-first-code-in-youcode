@@ -41,21 +41,21 @@ switch (choi) {
 
     for (i;i<h;i++){
 //le titre du livre
-printf("entre le titre du livre : ");
+printf("      =====>> Entre le titre du livre    : ");
 scanf("%s",&titre[i]);
-
+printf("\n");
 //l'Auteur du livre
-printf("entre l'Auteur du livre : ");
+printf("      =====>> Entre l'auteur du livre    : ");
 scanf("%s",&auteur[i]);
-
+printf("\n");
 //le Prix du livre
-printf("entre le Prix du livre : ");
+printf("      =====>> Entre le Prix du livre     : ");
 scanf("%f",&prix[i]);
-
+printf("\n");
 //la Quantite en stock
-printf("entre la Quantite en stock : ");
+printf("      =====>> Entre la Quantite en stock : ");
 scanf("%d",&quantite[i]);
-
+printf("\n");
 c++;
 i++;
 h++;
@@ -68,12 +68,12 @@ break;
 printf("         =====>> Vous avez << %d >> livres  <<=====", c );printf("\n");printf("\n");
     for (int i=0;i<c;i++){
             printf("\n\n");
-printf("=====>> livre numero %d : \n\n          le titre du livre est : %s" ,i+1,titre[i] );
-printf("\n");
-printf("          l'Auteur du livre est : %s",auteur[i] );
-printf("\n");
-printf("          le Prix du livre est : %.2f DH",prix[i] );
-printf("\n");
+printf("=====>> livre numero %d : \n\n\n          le titre du livre est    : %s" ,i+1,titre[i] );
+printf("\n\n");
+printf("          l'Auteur du livre est    : %s",auteur[i] );
+printf("\n\n");
+printf("          le Prix du livre est     : %.2f DH",prix[i] );
+printf("\n\n");
 printf("          la Quantite en stock est : %d",quantite[i] );
 
 }
