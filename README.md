@@ -1,5 +1,5 @@
 Mini-Projet : Système de Gestion de Stock dans une Librairie
-Objectif
+
 Le projet est un programme en C qui permet de gérer le stock de livres dans une librairie. Le programme offrir les fonctionnalités suivantes :
 
 Ajouter un livre au stock.
